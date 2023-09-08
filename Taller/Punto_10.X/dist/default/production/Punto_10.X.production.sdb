@@ -1,0 +1,84 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PIC14E ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F1939 ]
+[d frameptr 6 ]
+"10 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"6 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\pic\__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"15 C:\Users\jojan0724\Documents\JOJAN\Proyectos_micro\Punto_10.X\main.c
+[v _main main `(v  1 e 1 0 ]
+[s S90 . 1 `uc 1 RC0 1 0 :1:0 
+`uc 1 RC1 1 0 :1:1 
+`uc 1 RC2 1 0 :1:2 
+`uc 1 RC3 1 0 :1:3 
+`uc 1 RC4 1 0 :1:4 
+`uc 1 RC5 1 0 :1:5 
+`uc 1 RC6 1 0 :1:6 
+`uc 1 RC7 1 0 :1:7 
+]
+"570 C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC12-16F1xxx_DFP/1.6.241/xc8\pic\include\proc\pic16f1939.h
+[u S99 . 1 `S90 1 . 1 0 ]
+[v _PORTCbits PORTCbits `VES99  1 e 1 @14 ]
+[s S111 . 1 `uc 1 RD0 1 0 :1:0 
+`uc 1 RD1 1 0 :1:1 
+`uc 1 RD2 1 0 :1:2 
+`uc 1 RD3 1 0 :1:3 
+`uc 1 RD4 1 0 :1:4 
+`uc 1 RD5 1 0 :1:5 
+`uc 1 RD6 1 0 :1:6 
+`uc 1 RD7 1 0 :1:7 
+]
+"632
+[u S120 . 1 `S111 1 . 1 0 ]
+[v _PORTDbits PORTDbits `VES120  1 e 1 @15 ]
+[s S48 . 1 `uc 1 TRISC0 1 0 :1:0 
+`uc 1 TRISC1 1 0 :1:1 
+`uc 1 TRISC2 1 0 :1:2 
+`uc 1 TRISC3 1 0 :1:3 
+`uc 1 TRISC4 1 0 :1:4 
+`uc 1 TRISC5 1 0 :1:5 
+`uc 1 TRISC6 1 0 :1:6 
+`uc 1 TRISC7 1 0 :1:7 
+]
+"1454
+[u S57 . 1 `S48 1 . 1 0 ]
+[v _TRISCbits TRISCbits `VES57  1 e 1 @142 ]
+[s S69 . 1 `uc 1 TRISD0 1 0 :1:0 
+`uc 1 TRISD1 1 0 :1:1 
+`uc 1 TRISD2 1 0 :1:2 
+`uc 1 TRISD3 1 0 :1:3 
+`uc 1 TRISD4 1 0 :1:4 
+`uc 1 TRISD5 1 0 :1:5 
+`uc 1 TRISD6 1 0 :1:6 
+`uc 1 TRISD7 1 0 :1:7 
+]
+"1516
+[u S78 . 1 `S69 1 . 1 0 ]
+[v _TRISDbits TRISDbits `VES78  1 e 1 @143 ]
+[s S22 . 1 `uc 1 ANSD0 1 0 :1:0 
+`uc 1 ANSD1 1 0 :1:1 
+`uc 1 ANSD2 1 0 :1:2 
+`uc 1 ANSD3 1 0 :1:3 
+`uc 1 ANSD4 1 0 :1:4 
+`uc 1 ANSD5 1 0 :1:5 
+`uc 1 ANSD6 1 0 :1:6 
+`uc 1 ANSD7 1 0 :1:7 
+]
+"3464
+[s S31 . 1 `uc 1 ANSELD 1 0 :8:0 
+]
+[u S33 . 1 `S22 1 . 1 0 `S31 1 . 1 0 ]
+[v _ANSELDbits ANSELDbits `VES33  1 e 1 @399 ]
+"13 C:\Users\jojan0724\Documents\JOJAN\Proyectos_micro\Punto_10.X\main.c
+[v _estado_led estado_led `uc  1 e 1 0 ]
+"15
+[v _main main `(v  1 e 1 0 ]
+{
+"44
+} 0

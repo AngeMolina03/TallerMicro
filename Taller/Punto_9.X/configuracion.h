@@ -1,0 +1,8 @@
+
+#ifndef CONFIGURACION_H
+#define	CONFIGURACION_H
+
+#define __XTAL_FREQ 20000000Ul
+
+#endif	/* CONFIGURACION_H */
+
